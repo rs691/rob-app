@@ -1,8 +1,9 @@
 import { AppleStyleDock } from "@/components/motion-primitives/AppleStyleDock";
-import { AnimatedCardBackgroundHover } from "./components/AnimatedCardBackgroundHover";
+import { AnimatedCardBackgroundHover } from "../components/motion-primitives/AnimatedCardBackgroundHover";
   
 // import { TextEffectPerChar } from "@/components/motion-primitives/TextEffectPerCharacter";
 // import { TextShimmerBasic } from "@/components/motion-primitives/TextShimmerBasic";
+import { CarouselBasic } from "@/components/motion-primitives/CarouselBasic";
 import { GlowEffectCardBackground } from "@/components/motion-primitives/GlowEffectCardBackground";
 import { Header } from "./header";
 
@@ -21,6 +22,7 @@ export default function Home() {
           <TextShimmerBasic /> */}
           <div className="p-4">
             <GlowEffectCardBackground />
+            <CarouselBasic />
           </div>
           {/* link to about page */}
         </section>
