@@ -1,7 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  output: 'export',
+  basePath: '/rob-app',
+  assetPrefix: '/rob-app',
 };
 
 export default nextConfig;
