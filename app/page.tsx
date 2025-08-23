@@ -27,6 +27,7 @@ export default function Home() {
           {/* link to about page */}
         </section>
       </main>
+      
       <footer className="flex gap-6 flex-wrap items-center justify-center">
         {/* Your footer content here */}
       </footer>

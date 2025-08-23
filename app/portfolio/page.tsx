@@ -1,7 +1,7 @@
 'use client';
 
 
-import { CarouselBasic } from '@/components/motion-primitives/carouselBasic';
+import { CarouselBasic } from '@/components/motion-primitives/CarouselBasic';
 
 
 export default function PortfolioPage() {
