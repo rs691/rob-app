@@ -24,7 +24,7 @@ export default function Home() {
             <GlowEffectCardBackground />
             <CarouselBasic />
           </div>
-          {/* link to about page */}
+        
         </section>
       </main>
       

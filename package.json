@@ -8,7 +8,8 @@
     "export": "export",
      "output": "next build && next export",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "@mdx-js/loader": "^3.1.0",

@@ -3,8 +3,8 @@ import createMDX from '@next/mdx';
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  basePath: '/rob-app',
-  assetPrefix: '/rob-app/',
+  basePath: '/rob-app/app',
+  assetPrefix: '/rob-app/app/',
   pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'md', 'mdx'],
 };
 
