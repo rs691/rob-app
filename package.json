@@ -5,11 +5,15 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
+    "export": "export",
+     "output": "next build && next export",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "@next/mdx": "^15.4.7",
+    "@mdx-js/loader": "^3.1.0",
+    "@mdx-js/react": "^3.1.0",
+    "@next/mdx": "^15.5.0",
     "clsx": "^2.1.1",
     "lucide-react": "^0.540.0",
     "mdx": "^0.3.1",
