@@ -3,8 +3,8 @@ import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
   output: 'export',
-  basePath: '/rob-app/app',
-  assetPrefix: '/rob-app/app/',
+  basePath: '/rob-app',
+  assetPrefix: '/rob-app/',
   pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'md', 'mdx'],
   typescript: {
     ignoreBuildErrors: true,
