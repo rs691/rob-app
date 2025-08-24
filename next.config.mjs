@@ -2,8 +2,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  basePath: '/',
-  assetPrefix: '/',
+  basePath: '/rob-app',
+  assetPrefix: '/rob-app/',
   images: {
     unoptimized: true // Disable image optimization
   },
