@@ -1,7 +1,6 @@
 'use client';
 
 
-import { CarouselBasic } from '@/components/motion-primitives/CarouselBasic';
 
 
 export default function PortfolioPage() {
@@ -11,7 +10,7 @@ export default function PortfolioPage() {
             <p>Welcome to my portfolio page!</p>
          
             <div className="p-48">
-             <CarouselBasic />
+          <h1 className="text-4xl font-bold mb-4">Portfolio Page</h1>
             </div>
         </div>
     );
