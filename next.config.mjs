@@ -4,7 +4,7 @@ import createMDX from '@next/mdx';
 const nextConfig = {
   output: 'export',
   basePath: '/rob-app',
-  assetPrefix: '/rob-app',
+  assetPrefix: '/rob-app/',
   reactStrictMode: true,
   pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'md', 'mdx'],
 };
