@@ -4,6 +4,10 @@ const nextConfig = {
   output: 'export',
   basePath: '/rob-app',
   assetPrefix: '/rob-app/',
+    assetPrefix: '/steffens-showcase/',
+  images: {
+    unoptimized: true // Disable image optimization
+  },
 //   reactStrictMode: true,
 //   pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'md', 'mdx'],
 // };
