@@ -27,9 +27,16 @@ type SocialLink = {
   link: string
 }
 
+type Email = {
+  address: string
+  subject: string
+  body: string
+}
+
+
 export const PROJECTS: Project[] = [
   {
-    name: 'Motion Primitives Pro',
+    name: 'Full-Stack E-commerce Platform',
     description:
       'Advanced components and templates to craft beautiful websites.',
     link: 'https://pro.motion-primitives.com/',
@@ -49,16 +56,16 @@ export const PROJECTS: Project[] = [
 
 export const WORK_EXPERIENCE: WorkExperience[] = [
   {
-    company: 'Reglazed Studio',
-    title: 'CEO',
+    company: 'Bellevue University',
+    title: 'Peer Tutor',
     start: '2024',
     end: 'Present',
-    link: 'https://ibelick.com',
+    link: 'https://www.bellevue.edu/',
     id: 'work1',
   },
   {
-    company: 'Freelance',
-    title: 'Design Engineer',
+    company: 'Pierson Wireless',
+    title: 'Junior Web Developer / IT Support Specialist',
     start: '2022',
     end: '2024',
     link: 'https://ibelick.com',

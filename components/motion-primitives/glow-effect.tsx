@@ -25,6 +25,7 @@ export type GlowEffectProps = {
   transition?: Transition;
   scale?: number;
   duration?: number;
+  children?: React.ReactNode;
 };
 
 export function GlowEffect({
@@ -36,6 +37,7 @@ export function GlowEffect({
   transition,
   scale = 1,
   duration = 5,
+  children,
 }: GlowEffectProps) {
   const BASE_TRANSITION = {
     repeat: Infinity,
@@ -146,6 +148,8 @@ export function GlowEffect({
         getBlurClass(blur),
         className
       )}
-    />
+    >
+      {children}
+    </motion.div>
   );
 }

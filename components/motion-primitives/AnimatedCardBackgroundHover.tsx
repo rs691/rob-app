@@ -6,11 +6,13 @@ export function AnimatedCardBackgroundHover() {
       id: 1,
       title: 'Dialog',
       description: 'Enhances modal presentations.',
+   
     },
     {
       id: 2,
       title: 'Popover',
       description: 'For small interactive overlays.',
+   
     },
     {
       id: 3,
@@ -33,7 +35,7 @@ export function AnimatedCardBackgroundHover() {
       description: 'Delete items with swipe gestures.',
     },
   ];
-
+/**Add links */
   return (
     <div className='grid grid-cols-2 p-10 md:grid-cols-3'>
       <AnimatedBackground
@@ -45,6 +47,7 @@ export function AnimatedCardBackgroundHover() {
         }}
         enableHover
       >
+        
         {ITEMS.map((item, index) => (
           <div key={index} data-id={`card-${index}`}>
             <div className='flex select-none flex-col space-y-1 p-4'>
